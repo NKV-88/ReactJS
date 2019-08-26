@@ -1,0 +1,18 @@
+{
+  "name": "react-lesson2-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "dev2" : "webpack --mode development./src/index.js --output./dist/bundle.js",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
