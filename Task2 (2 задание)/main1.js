@@ -1,4 +1,4 @@
-import {Developer,test} from './main';
+import {Developer,test} from './main2';
 
 let newDev = new Developer(5,2,1);
 

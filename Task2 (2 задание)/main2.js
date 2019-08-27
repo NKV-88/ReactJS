@@ -5,12 +5,13 @@ export class Developer {
         this.c=c;
     }
     calc (d) {
-        return a+b+c;
+        this.d=this.a+this.b+this.c;
     }
     info (){
-        console.log(d);
+        console.log(this.d);
     }
     
 }
 
 export let test= `1`;
+
